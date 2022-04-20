@@ -1,0 +1,19 @@
+{
+    "name": "el-schneider/statamic-bard-footnotes-button",
+    "autoload": {
+        "psr-4": {
+            "ElSchneider\\StatamicBardFootnotesButton\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Statamic Bard Footnotes Button",
+            "description": "Bard Footnotes addon"
+        },
+        "laravel": {
+            "providers": [
+                "ElSchneider\\StatamicBardFootnotesButton\\ServiceProvider"
+            ]
+        }
+    }
+}
